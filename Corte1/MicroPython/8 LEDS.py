@@ -1,0 +1,80 @@
+from machine import Pin
+import time
+
+L1 = Pin(15, Pin.OUT)
+L2 = Pin(2, Pin.OUT)
+L3 = Pin(4, Pin.OUT)
+L4 = Pin(16, Pin.OUT)
+L5 = Pin(17, Pin.OUT)
+L6 = Pin(5, Pin.OUT)
+L7 = Pin(18, Pin.OUT)
+L8 = Pin(19, Pin.OUT)
+
+while True:
+    
+    time.sleep(0.5)
+    L1.on()
+    print("PRENDIDO")
+    time.sleep(0.1)
+    #L1.off()
+    print("APAGADO")
+    time.sleep(0.1)
+    
+    L2.on()
+    print("PRENDIDO")
+    time.sleep(0.1)
+    #L2.off()
+    print("APAGADO")
+    time.sleep(0.1)
+    
+    L3.on()
+    print("PRENDIDO")
+    time.sleep(0.1)
+    #L3.off()
+    print("APAGADO")
+    time.sleep(0.1)
+    
+    L4.on()
+    print("PRENDIDO")
+    time.sleep(0.1)
+    #L4.off()
+    print("APAGADO")
+    time.sleep(0.1)
+    
+    L5.on()
+    print("PRENDIDO")
+    time.sleep(0.1)
+    #L5.off()
+    print("APAGADO")
+    time.sleep(0.1)
+    
+    L6.on()
+    print("PRENDIDO")
+    time.sleep(0.1)
+    #L6.off()
+    print("APAGADO")
+    time.sleep(0.1)
+    
+    L7.on()
+    print("PRENDIDO")
+    time.sleep(0.1)
+    #L7.off()
+    print("APAGADO")
+    time.sleep(0.1)
+    
+    L8.on()
+    print("PRENDIDO")
+    time.sleep(0.1)
+    #L8.off()
+    print("APAGADO")
+    time.sleep(0.1)
+    
+    L1.off()
+    L2.off()
+    L3.off()
+    L4.off()
+    L5.off()
+    L6.off()
+    L7.off()
+    L8.off()
+    
